@@ -1,0 +1,26 @@
+sdiv.main {
+  background-color: azure;
+  border: 10px solid aquamarine;
+  padding: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+div::first-letter{
+ font-size: 70px 
+}
+div {
+  background-color: azure;
+  border: 3px solid aquamarine;
+  padding: 15px;
+  font: "Lucida Console", Monaco, monospace;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 2px;
+}
+ul li::before {
+	content: "\f121";
+	font-family: FontAwesome;
+	color: rgb(220, 108, 108);
+	margin-right: 5px;
+}
+ul {
+	list-style: none;
+}
